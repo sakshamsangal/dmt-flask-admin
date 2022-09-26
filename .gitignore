@@ -1,6 +1,4 @@
-db/dmt_master.db
-static/xml
-static/img
+my_app/dmt.db
 .idea
 .DS_Store
 .env

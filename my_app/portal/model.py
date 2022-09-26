@@ -6,8 +6,7 @@ from my_app import db
 class MyModelView(ModelView):
     # form_columns = ('sak', 'name')
     can_edit = True
-    page_size = 15
-
+    page_size = 8
     column_display_pk = True
 
     # list_display_pk = True
@@ -22,8 +21,7 @@ class MyModelView(ModelView):
 class XpathMapView(ModelView):
     form_columns = ('pat', 'map_to', 'ct', 'priority')
     can_edit = True
-    page_size = 15
-
+    page_size = 8
     column_display_pk = True
 
     # list_display_pk = True
